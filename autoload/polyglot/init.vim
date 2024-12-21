@@ -2703,14 +2703,14 @@ endif
 
 if !has_key(g:polyglot_is_disabled, 'sensible')
   " Use 2-spaces tab indentation by default
-  if &tabstop == 8
-    let &tabstop = 2
-  endif
+  "if &tabstop == 8
+  "  let &tabstop = 2
+  "endif
 
-  " Set shiftwidth to proper value as users often mix it with tabstop
-  if &shiftwidth > &tabstop
-    let &shiftwidth = &tabstop
-  endif
+  "" Set shiftwidth to proper value as users often mix it with tabstop
+  "if &shiftwidth > &tabstop
+  "  let &shiftwidth = &tabstop
+  "endif
 
   " Use utf-8 encoding by default
   set encoding=utf-8
