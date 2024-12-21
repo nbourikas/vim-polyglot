@@ -2879,11 +2879,11 @@ if !has_key(g:polyglot_is_disabled, 'autoindent')
       endif
     endfor
 
-    if spaces_minus_tabs < 0
-      setlocal noexpandtab
-      let &l:shiftwidth=&tabstop
-      return 1
-    endif
+    "if spaces_minus_tabs < 0
+    "  setlocal noexpandtab
+    "  let &l:shiftwidth=&tabstop
+    "  return 1
+    "endif
 
     let shiftwidth = s:get_shiftwidth(indents)
 
